@@ -10,4 +10,9 @@ class CadastroveiculosApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+    void mainMethodRuns() {
+        CadastroveiculosApplication.main(new String[]{});
+    }
+
 }
